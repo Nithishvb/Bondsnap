@@ -1,7 +1,9 @@
+import CreateStablecoinForm from "@/components/form/StableCoinForm";
+
 export default function Home() {
   return (
-    <div>
-      <h1>HEllo wofkf</h1>
+    <div className="flex justify-center mt-10">
+      <CreateStablecoinForm />
     </div>
   );
 }
